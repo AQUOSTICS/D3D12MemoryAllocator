@@ -11,6 +11,11 @@ project "D3D12MemoryAllocator"
 		"src/D3D12MemAlloc.cpp"
 	}
 
+	includedirs
+	{
+		"include",
+	}
+
 	filter "system:windows"
 		systemversion "latest"
 		cppdialect "C++latest"
